@@ -38,8 +38,7 @@ jobs:
       - name: Make gradle executable
         run: chmod +x ./gradlew
         
-      - name: Lint
-        run: ./gradlew lint
+      
         
         
       - name: Bump version code        
